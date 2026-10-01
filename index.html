@@ -5,8 +5,111 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Page Title</title>
     <link rel='stylesheet' href='main.css'>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('https://static.wikia.nocookie.net/rezero/images/5/52/Episode_79_Pleiades_Watchtower.png/revision/latest/scale-to-width-down/250?cb=20260820170540');
+        }
+        h1, h3 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        nav {
+            color: #333;
+        }
+        #SalePrice {
+            color: red;
+        }
+    </style>
+    <nav>
+    <nav>
+        <ul>
+            <section> <a href="#Background">About</a> </section>
+            <section> <a href="#Information">Information</a> </section>
+            <section> <a href="#EventInformation">Event Information</a> </section>
+        </ul>
+    </nav>
+    <h1 id="Welcome"> Welcome to the Pleiades Watchtower </h1>
+    <em> 
+        Explore the wonders of the Pleiades, and traverse around the tower to escape.
+        Prepare for an adventure filled with mystery and discovery as you navigate the ancient watchtower and uncover the secrets of the Pleiades.
+        Are you ready to embark on this journey?
+        Join us as we delve into the mysteries of the Pleiades and uncover the hidden truths within the watchtower.
+        Don't miss the chance to be part of this extraordinary adventure and witness the wonders of the Pleiades firsthand.
+    </em>
+    </p>
+    <hr>
 </head>
 <body>
-    
+    <h3 id="Background"> About the Pleiades Watchtower </h3>
+    <p>
+    The Pleiades Watchtower is a significant location in the Re:Zero series, known for its mysterious and ancient architecture.
+    It serves as a central point for various events and challenges faced by the characters, highlighting themes of exploration, discovery, and the uncovering of hidden truths.
+    </p>
+
+    <h3 id="Information"> Information for the Pleiades Watchtower </h3>
+    <p>
+    The Pleiades Watchtower is the site of numerous significant events in the Re:Zero series, including battles, discoveries, and pivotal moments that shape the narrative.
+    These events often involve the main characters facing challenges and uncovering hidden truths within the tower.
+    </p>
+    <p>
+    The Pleiades Watchtower continues to be a focal point for various storylines and character developments, with each event adding layers of complexity and intrigue to the narrative.
+    </p>
+    <h3 id="EventInformation"> Event Information for the Pleiades Watchtower </h3>
+    <p>
+    The Pleiades Watchtower hosts a variety of events, each contributing to the overarching narrative of the Re:Zero series.
+    These events often involve the main characters engaging in battles, solving puzzles, and uncovering hidden truths within the tower.
+    </p>
+    <p>
+    The events at the Pleiades Watchtower are crucial for the development of the story, as they often reveal key information and challenge the characters in significant ways.
+    </p>
+    <p>
+    Overall, the Pleiades Watchtower serves as a central hub for the unfolding drama and mystery within the Re:Zero series, with each event adding depth and complexity to the narrative.
+    </p>
+    <hr>
+    <h2 id="EventAdditionalInformation"> Additional Event Information for the Pleiades Watchtower </h2>
+    <h2> Date: 04/08/2026 </h2>
+    <h2> Location: Pleiades Watchtower </h2>
+    <h2> Additional Notes: Any other relevant information about the event will be provided here.</h2>
+    <h3> <a href="#" onclick="alert('Info not yet released')"> Additional Notes </a> </h3>
+    <h2> Cost / Admission info: Cost to take part in this event as a general admission is $10, Student admission is $5 while VIP admission is <del>$40</del>
+    <span  id="SalePrice"> Sale Price: </span> $25
+    </h2>
+    <h2>
+    <h2> Time: 10:00 AM - 3:00 PM </h2>
+<section> <a href="#Welcome">Go to the Welcome Section</a> </section>
+    <footer>
+        <p> Pleiades Watchtower &copy; (Re:Zero)</p>
+    </footer> 
+    <hr>
+    <h1> Registration Form </h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="registration">Registration Type:</label>
+        <select id="registration" name="registration">
+            <option value="Student"> Student Admission </option>
+            <option value="general"> General Admission </option>
+            <option value="VIP"> VIP Admission </option>
+        </select>
+        <br>
+        <input type="submit" value="Register">
+    </form>
 </body>
 </html>
